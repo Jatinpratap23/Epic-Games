@@ -1,4 +1,8 @@
-.epiclogo{
-    background-color: black;
-    height: 100px;
+.container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.manu{
+    padding-left: 10px;
 }
