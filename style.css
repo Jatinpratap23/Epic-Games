@@ -1,8 +1,27 @@
-.container{
-    display: flex;
-    justify-content: space-around;
+
+body{
+background-color: hsl(185, 100%, 98%) !important;
+
 
 }
+.d-flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.container{
+    
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+padding: 1.5rem;
+}
+.align-content{
+    align-content: center;
+}
 .manu{
-    padding-left: 10px;
+    font-family: sans-serif;
+    color:  #450b78;
+    font-size: 16px;
 }
