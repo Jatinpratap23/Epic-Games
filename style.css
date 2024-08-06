@@ -4,6 +4,13 @@ background-color: hsl(185, 100%, 98%) !important;
 
 
 }
+.width{
+    width: 70vh;
+}
+.font-size{
+    font-size: 16px;
+    
+}
 .d-flex{
     display: flex;
 }
@@ -24,4 +31,18 @@ padding: 1.5rem;
     font-family: sans-serif;
     color:  #450b78;
     font-size: 16px;
+}
+.write-op {
+    margin-bottom: 20px;
+    color:  #2b044d;
+}
+.capital-write{
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'sans-serif';
+    color:  #2b044d;
+    margin-bottom: 32px;
+}
+.data{
+ color:  #707b8e;
 }
