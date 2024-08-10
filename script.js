@@ -23,3 +23,27 @@ const d=[10,29,30,45,56,,77,0]
 function arry (d[]){
     for(let i=0; i< a.length;i++) ml
 }
+/**
+ * Checks if a string is a palindrome.
+ *
+ * @param {string} str - The string to check.
+ * @return {boolean} Returns true if the string is a palindrome, false otherwise.
+ */
+function isPalindrome(str) {
+    // Remove non-alphanumeric characters and convert the string to lowercase
+    var cleanedStr = str.toLowerCase().replace(/[\W_]/g, '');
+    
+    // Get the length of the cleaned string
+    var len = cleaned56Str.length;
+    
+    // Iterate through the string, comparing each character with its mirrored counterpart
+    for (var i = 0; i < len / 2; i++) {
+        if (cleanedStr[i] !== cleanedStr[len - 1 - i]) {
+            // If a mismatch is found, return false
+            return false;
+        }
+    }
+    
+    // If all characters match their mirrored counterparts, return true
+    return true;
+}
