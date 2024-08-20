@@ -17,9 +17,7 @@ background-color: hsl(185, 100%, 98%) !important;
 .font-size{
     font-size: 16px; 
 }
-.d-flex{
-    display: flex;
-}
+
 .justify-between{
     justify-content: space-between;
 }
@@ -27,14 +25,23 @@ background-color: hsl(185, 100%, 98%) !important;
     align-content: center;
 }
 
-.container{
-    padding-top: 35px;
-    max-width: 100%;
+.hader-container{
+    
+    position: fixed;
+    top: 0;
+    background: white;
+    width: 100%;
     display: flex;
+    padding: 12px 107px;
+    align-items: center;
+    box-shadow: 0px 0.4px 17px 0px lightblue;
     justify-content: space-between;
-
 }
+
 .manu{
+    position:relative;
+    bottom: 3px;
+    left: 3px;
     padding-top: 6px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -62,14 +69,19 @@ background-color: hsl(185, 100%, 98%) !important;
 .m-top {
     margin-top: 70px;
 }
-.Data{
- color:  #707b8e;
+
+.paragraph{
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-style: normal;
+color:  #707b8e;
 width: 62%;
 line-height: 30px;
 padding-right: 27px;
- 
+margin-bottom: 54px;
 }
 .heading-pocket{
+
     font-size:16px ;
     margin-bottom: 100px;
     line-height: 1.5rem;
@@ -93,32 +105,53 @@ padding-right: 27px;
     color: #ffffff;
     border-radius: 30px;
     padding: 18px 43px;
+    letter-spacing: 1px;
     }
     .play-button{
         background-color:  #d852e8;
         border: none;
-        border-radius: 50;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
         margin-left: 16px;
     }
     
-.circle-img{
-    max-width: 70%;
-}    
 .second-img{
     padding-left: 30px;
     top: 100px;
 }
-.capital-write2{
-    font-size: 65px;
-    color:  #2b044d;
-    margin-bottom: 32px;
+
+.manu-iteml{
+    padding: 15px 20px 15px 20px;
+}
+.manu-itemL{
+    padding-right: 72px;
+    padding: 15px 20px 15px 20px;
+}
+.container-phase2{
+    padding-bottom: 110px;
+    background-color: rgb(255, 255, 255) !important;
+}
+.second-img{
+    width: 35%;
+}
+.about-feature{
+    justify-content: flex-start;
+    align-items: center;
+    gap:20px;
+}
+.heading-2 {
+    padding-bottom: 95px;
+    width: 75%;
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    line-height: 1.3;
+    font-size: 50px;
+    line-height: 3rem;
+    margin-bottom: 90px;
+    color:  #2b044d;
 }
-    
     
 
 
