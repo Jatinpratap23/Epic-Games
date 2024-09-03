@@ -29,6 +29,9 @@ background-color: hsl(185, 100%, 98%) !important;
 .justify-between{
     justify-content: space-between;
 }
+.justify-around{
+    justify-content: space-around;
+}
 .align-content{
     align-content: center;
 }
@@ -181,7 +184,12 @@ font-style: normal;
 color:  #707b8e;
 line-height: 30px;
 }
-    
+.manage-box{
+    border: 1px solid #b8a2ff;
+    border-radius: 7px;
+    width: 25%;
+    background-color: #ffffff;
+} 
 
 
 
