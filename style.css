@@ -201,6 +201,18 @@ line-height: 30px;
     font-size: 40px;
     margin-bottom: 20px;
 }
+.imggriid{
+    background-image: url(images/best_pricingbg.jpg);
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(207, 10, 154) rgb(133, 29, 199) rgb(54, 5, 233));
+    padding-top: 110px;
+    padding-bottom: 220px;
+    background-color: #ffffff;
+    background-size: cover;
+  
+    width: 100%;
+    height: 600%;
+}
 
 
 
